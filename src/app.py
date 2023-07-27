@@ -22,9 +22,9 @@ def predict(img):
 #　推論したラベルから犬か猫かを返す関数
 def getName(label):
     if label==0:
-        return '腹筋をしています'
-    elif label==1:
         return '腹筋をしていません'
+    elif label==1:
+        return '腹筋をしています'
     
 # Flask のインスタンスを作成
 app = Flask(__name__)
